@@ -1,0 +1,8 @@
+.DS_Store
+
+# npm
+node_modules
+
+# build
+src/server/resources/webpack-assets.json
+package

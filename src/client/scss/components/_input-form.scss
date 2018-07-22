@@ -1,0 +1,23 @@
+/* input form */
+
+.c-input-form {
+  background-color:#dedede;
+  justify-content:center;
+  padding:10px;
+  display:flex;
+
+  label,
+  input {
+    margin-right:10px;
+  }
+
+  label,
+  .validation-error {
+    margin:0 10px 0 0;
+    padding:5px 0;
+  }
+
+  input {
+    padding:5px 10px;
+  }
+}

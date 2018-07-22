@@ -1,0 +1,10 @@
+html
+  head
+    title='Weather Forecast'
+    if assets
+      link(rel='stylesheet', href= assets.bundle.css)
+  body
+    div(id='root')
+    if assets
+      script(src= assets.vendors.js)
+      script(src= assets.bundle.js)
